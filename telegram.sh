@@ -18,4 +18,4 @@ fi
 sudo ln -s /opt/Telegram/Telegram /usr/bin/telegram
 
 echo "Installation completed successfully."
-echo "You can use Postman!"
+echo "You can use Instagram!"
