@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /tmp || exit
 echo "Downloading Telegram ..."
-wget -q https://updates.tdesktop.com/tlinux/tsetup.1.3.10.tar.xz -O telegram.tar.xz
+wget -q --show-progress https://updates.tdesktop.com/tlinux/tsetup.1.3.10.tar.xz -O telegram.tar.xz
 tar -xf telegram.tar.xz
 rm telegram.tar.xz
 
